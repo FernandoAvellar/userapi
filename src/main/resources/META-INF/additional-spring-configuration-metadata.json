@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "allowed.currencies",
+  "type": "java.lang.String",
+  "description": "Allowed.currencies"
+}]}
