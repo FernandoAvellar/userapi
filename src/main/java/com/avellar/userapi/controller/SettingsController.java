@@ -36,7 +36,6 @@ public class SettingsController {
         return ResponseEntity.status(HttpStatus.CONFLICT).build();
     }
 	
-	
 	//ToDo: Quando removo uma moeda da lista preciso garantir que se houver já alguma persistência da sua cotação na base que essa também seja removida.
     @DeleteMapping("/{currency}")
     public ResponseEntity<Void> removeCurrency(@PathVariable String currency) {
